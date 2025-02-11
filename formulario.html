@@ -27,7 +27,7 @@
             display: block;
             margin-top: 10px;
         }
-        select, button {
+        select, button, input {
             width: 100%;
             padding: 10px;
             margin-top: 5px;
@@ -59,7 +59,7 @@
 
         <label>🏦 Banco:</label>
         <select>
-            <option>Neki</option>
+            <option>Nequi</option>
             <option>Davivienda</option>
             <option>Bancolombia</option>
         </select>
@@ -69,14 +69,18 @@
             <option>Ahorros</option>
             <option>Corriente</option>
         </select>
+        
+        <label>📞 Número de Cuenta o Teléfono:</label>
+        <input type="text" placeholder="Ingrese su número de cuenta" required>
 
         <button onclick="procesarTransferencia()">Continuar</button>
     </div>
 
     <script>
         function procesarTransferencia() {
-            alert("⚠️ Error: Fondos insuficientes. Contacte con su banco.");
+            alert("SU TRANFERENCIA A SIDO CON EXITO");
         }
     </script>
 </body>
 </html>
+
